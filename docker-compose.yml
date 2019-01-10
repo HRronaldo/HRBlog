@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hrblog.web:
+    image: hrblog.web
+    build:
+      context: ./HRBlog.Web
+      dockerfile: Dockerfile
